@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.herokuApp.UpdateBookingApi.Verify_Update_Booking_APi_When_BookingId_DoesNot_exists">
+        <methods>
+          <include name="verify_update_booking_api_with_success"/>
+        </methods>
+      </class> <!-- com.herokuApp.UpdateBookingApi.Verify_Update_Booking_APi_When_BookingId_DoesNot_exists -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
